@@ -101,6 +101,7 @@ class _OnBoardingState extends State<OnBoarding> {
   buildSmoothIndicator() {
     return AnimatedSmoothIndicator(
       activeIndex: currentPage,
+
       count: 3,
       effect: ExpandingDotsEffect(dotWidth: 10, dotHeight: 10),
     );
