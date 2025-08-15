@@ -1,4 +1,5 @@
-import 'package:assignment/onboarding_evently/onboarding.dart';
+import 'package:assignment/ui/screens/google_login/google_login.dart';
+import 'package:assignment/ui/screens/register/register.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,6 +11,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: OnBoarding());
+    return MaterialApp(debugShowCheckedModeBanner: false,
+        home: GoogleLogin());
   }
 }
